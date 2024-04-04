@@ -9,39 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">HomepageTest</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">22,687</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">LoginpageTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">23,043</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">45,730</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Test1</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">71,733</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test2</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">119,518</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Test3</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">131,312</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">322,563</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">HomepageTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.CRM.TestCases.HomepageTest</td><td><a href="#m0">VerifySignIn</a></td><td rowspan="1">1712089591596</td><td rowspan="1">32</td></tr><tr><th colspan="4">HomepageTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.CRM.TestCases.HomepageTest</td><td><a href="#m1">VerifyTitle</a></td><td rowspan="1">1712089591565</td><td rowspan="1">24</td></tr><tr class="passedeven"><td><a href="#m2">VerifyUrl</a></td><td rowspan="1">1712089591483</td><td rowspan="1">53</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">LoginpageTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.CRM.TestCases.LoginpageTest</td><td><a href="#m3">verifyLogin</a></td><td rowspan="1">1712089613366</td><td rowspan="1">1442</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">SeleniumGrid.CrossBrowserTest</td><td><a href="#m0">broweserTest</a></td><td rowspan="1">1712231546154</td><td rowspan="1">71603</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">SeleniumGrid.CrossBrowserTest</td><td><a href="#m1">broweserTest</a></td><td rowspan="1">1712231546154</td><td rowspan="1">119418</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Test3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">SeleniumGrid.CrossBrowserTest</td><td><a href="#m2">broweserTest</a></td><td rowspan="1">1712231546154</td><td rowspan="1">131237</td></tr></tbody>
 </table>
-<h2>HomepageTest</h2><h3 id="m0">com.CRM.TestCases.HomepageTest#VerifySignIn</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#SignIn&quot;}
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5bb08f19bdf02ccd792e13282571b49b, findElement {using=id, value=SignIn}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51109}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51109/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5bb08f19bdf02ccd792e13282571b49b
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at com.CRM.Pages.Homepage.getSignIn(Homepage.java:29)
-	at com.CRM.TestCases.HomepageTest.VerifySignIn(HomepageTest.java:24)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.CRM.TestCases.HomepageTest#VerifyTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.CRM.TestCases.HomepageTest#VerifyUrl</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>LoginpageTest</h2><h3 id="m3">com.CRM.TestCases.LoginpageTest#verifyLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test1</h2><h3 id="m0">SeleniumGrid.CrossBrowserTest#broweserTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Chrome</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Test executing on Chrome!!<br/>Driver session established with server!!<br/>Test executing for Amazon application!!<br/>Test executing on Chrome Completed!!<br/>Test executing on Edge Completed!!<br/>Test executing on Firefox Completed!!</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test2</h2><h3 id="m1">SeleniumGrid.CrossBrowserTest#broweserTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>edge</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Test executing on Chrome!!<br/>Driver session established with server!!<br/>Test executing for Amazon application!!<br/>Test executing on Chrome Completed!!<br/>Test executing on Edge Completed!!<br/>Test executing on Firefox Completed!!</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test3</h2><h3 id="m2">SeleniumGrid.CrossBrowserTest#broweserTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>firefox</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Test executing on Chrome!!<br/>Driver session established with server!!<br/>Test executing for Amazon application!!<br/>Test executing on Chrome Completed!!<br/>Test executing on Edge Completed!!<br/>Test executing on Firefox Completed!!</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

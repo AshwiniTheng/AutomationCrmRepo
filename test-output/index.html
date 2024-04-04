@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,12 +50,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>G:\NewAshwiniSelenium\SA016AutomationProject\crmapp.xml</span>
+                    <span>G:\NewAshwiniSelenium\SA016AutomationProject\crossbroweser.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.CRM.TestCases.HomepageTest" class="method navigator-link" hash-for-method="VerifySignIn">VerifySignIn</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,17 +103,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.CRM.TestCases.HomepageTest" class="method navigator-link" hash-for-method="VerifyTitle">VerifyTitle</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="SeleniumGrid.CrossBrowserTest" class="method navigator-link" hash-for-method="broweserTest(Chrome)">broweserTest(Chrome)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.CRM.TestCases.HomepageTest" class="method navigator-link" hash-for-method="VerifyUrl">VerifyUrl</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="SeleniumGrid.CrossBrowserTest" class="method navigator-link" hash-for-method="broweserTest(edge)">broweserTest(edge)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.CRM.TestCases.LoginpageTest" class="method navigator-link" hash-for-method="verifyLogin">verifyLogin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="SeleniumGrid.CrossBrowserTest" class="method navigator-link" hash-for-method="broweserTest(firefox)">broweserTest(firefox)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -142,79 +128,34 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.CRM.TestCases.HomepageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifySignIn">
-                  </a> <!-- VerifySignIn -->
-                  <span class="method-name">VerifySignIn</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#SignIn&quot;}
-  (Session info: chrome=123.0.6312.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5bb08f19bdf02ccd792e13282571b49b, findElement {using=id, value=SignIn}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51109}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51109/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5bb08f19bdf02ccd792e13282571b49b
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at com.CRM.Pages.Homepage.getSignIn(Homepage.java:29)
-	at com.CRM.TestCases.HomepageTest.VerifySignIn(HomepageTest.java:24)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.CRM.TestCases.LoginpageTest</span>
+              <span class="class-name">SeleniumGrid.CrossBrowserTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLogin">
-                  </a> <!-- verifyLogin -->
-                  <span class="method-name">verifyLogin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.CRM.TestCases.HomepageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyTitle">
-                  </a> <!-- VerifyTitle -->
-                  <span class="method-name">VerifyTitle</span>
+                  <a name="broweserTest(Chrome)">
+                  </a> <!-- broweserTest(Chrome) -->
+                  <span class="method-name">broweserTest</span>
+                  <span class="parameters">(Chrome)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifyUrl">
-                  </a> <!-- VerifyUrl -->
-                  <span class="method-name">VerifyUrl</span>
+                  <a name="broweserTest(edge)">
+                  </a> <!-- broweserTest(edge) -->
+                  <span class="method-name">broweserTest</span>
+                  <span class="parameters">(edge)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="broweserTest(firefox)">
+                  </a> <!-- broweserTest(firefox) -->
+                  <span class="method-name">broweserTest</span>
+                  <span class="parameters">(firefox)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -222,23 +163,31 @@ Session ID: 5bb08f19bdf02ccd792e13282571b49b
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">G:\NewAshwiniSelenium\SA016AutomationProject\crmapp.xml</span>
+            <span class="header-content">G:\NewAshwiniSelenium\SA016AutomationProject\crossbroweser.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;HomepageTest&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Test1&quot;&gt;
+    &lt;parameter name=&quot;bname&quot; value=&quot;Chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.CRM.TestCases.HomepageTest&quot;/&gt;
+      &lt;class name=&quot;SeleniumGrid.CrossBrowserTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- HomepageTest --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;LoginpageTest&quot;&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Test2&quot;&gt;
+    &lt;parameter name=&quot;bname&quot; value=&quot;edge&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.CRM.TestCases.LoginpageTest&quot;/&gt;
+      &lt;class name=&quot;SeleniumGrid.CrossBrowserTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- LoginpageTest --&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Test3&quot;&gt;
+    &lt;parameter name=&quot;bname&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SeleniumGrid.CrossBrowserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test3 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -250,10 +199,13 @@ Session ID: 5bb08f19bdf02ccd792e13282571b49b
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">HomepageTest (1 class)</span>
+                <span class="test-name">Test1 (1 class)</span>
               </li>
               <li>
-                <span class="test-name">LoginpageTest (1 class)</span>
+                <span class="test-name">Test2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test3 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -279,28 +231,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyLogin')
-data.setCell(0, 2, 'com.CRM.TestCases.LoginpageTest')
-data.setCell(0, 3, 1442);
+data.setCell(0, 1, 'broweserTest')
+data.setCell(0, 2, 'SeleniumGrid.CrossBrowserTest')
+data.setCell(0, 3, 131237);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'VerifyUrl')
-data.setCell(1, 2, 'com.CRM.TestCases.HomepageTest')
-data.setCell(1, 3, 53);
+data.setCell(1, 1, 'broweserTest')
+data.setCell(1, 2, 'SeleniumGrid.CrossBrowserTest')
+data.setCell(1, 3, 119418);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'VerifySignIn')
-data.setCell(2, 2, 'com.CRM.TestCases.HomepageTest')
-data.setCell(2, 3, 32);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'VerifyTitle')
-data.setCell(3, 2, 'com.CRM.TestCases.HomepageTest')
-data.setCell(3, 3, 24);
+data.setCell(2, 1, 'broweserTest')
+data.setCell(2, 2, 'SeleniumGrid.CrossBrowserTest')
+data.setCell(2, 3, 71603);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -311,6 +259,39 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">broweserTest(Chrome)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test executing on Chrome!!</span>
+                <span class="reporter-method-output">Driver session established with server!!</span>
+                <span class="reporter-method-output">Test executing for Amazon application!!</span>
+                <span class="reporter-method-output">Test executing on Chrome Completed!!</span>
+                <span class="reporter-method-output">Test executing on Edge Completed!!</span>
+                <span class="reporter-method-output">Test executing on Firefox Completed!!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">broweserTest(edge)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test executing on Chrome!!</span>
+                <span class="reporter-method-output">Driver session established with server!!</span>
+                <span class="reporter-method-output">Test executing for Amazon application!!</span>
+                <span class="reporter-method-output">Test executing on Chrome Completed!!</span>
+                <span class="reporter-method-output">Test executing on Edge Completed!!</span>
+                <span class="reporter-method-output">Test executing on Firefox Completed!!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">broweserTest(firefox)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test executing on Chrome!!</span>
+                <span class="reporter-method-output">Driver session established with server!!</span>
+                <span class="reporter-method-output">Test executing for Amazon application!!</span>
+                <span class="reporter-method-output">Test executing on Chrome Completed!!</span>
+                <span class="reporter-method-output">Test executing on Edge Completed!!</span>
+                <span class="reporter-method-output">Test executing on Firefox Completed!!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -326,43 +307,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.CRM.TestCases.HomepageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
+              <div class="chronological-class-name">SeleniumGrid.CrossBrowserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">broweserTest(Chrome)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">pageSetUp</span>
-                <span class="method-start">20998 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">VerifyUrl</span>
-                <span class="method-start">22513 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">VerifyTitle</span>
-                <span class="method-start">22595 ms</span>
+                <span class="method-name">broweserTest(edge)</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">VerifySignIn</span>
-                <span class="method-start">22626 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.CRM.TestCases.LoginpageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">22800 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">pageSetUp</span>
-                <span class="method-start">42998 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">verifyLogin</span>
-                <span class="method-start">44396 ms</span>
+                <span class="method-name">broweserTest(firefox)</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
